@@ -11,7 +11,16 @@ import SwiftUI
 struct Swift_UIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            TabView {
+                ContentView()
+                ContentView()
+                ContentView()
+                ContentView()
+            }
+            .tabViewStyle(PageTabViewStyle())
+            .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .never))
+           
         }
     }
 }
