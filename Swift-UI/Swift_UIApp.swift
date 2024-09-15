@@ -12,14 +12,9 @@ struct Swift_UIApp: App {
     var body: some Scene {
         WindowGroup {
             
-            TabView {
+          
                 ContentView()
-                ContentView()
-                ContentView()
-                ContentView()
-            }
-            .tabViewStyle(PageTabViewStyle())
-            .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .never))
+               
            
         }
     }
